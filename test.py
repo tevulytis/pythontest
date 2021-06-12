@@ -1,10 +1,16 @@
-x = 1
+print "This program multiplies 2 numbers x and y"
+
+x = 3
 y = 2
-res = x + y
 
-print "result is "+str(res)
+print "x equals to "+str(x)
+print "y equals to "+str(y)
 
-if y == 2:
-  print "y is "+str(y)
-else:
-  print(1)
+res = x * y
+
+print "result of x*y is "+str(res)
+
+#if y == 2:
+#  print "y is "+str(y)
+#else:
+#  print(1)
